@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\m_eldeeb\\Downloads\\Member3 part\\Member3 part\\MyApplication9\\MyApplication9\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\visit_row.xml",
+        "source": "C:\\Users\\m_eldeeb\\Downloads\\Member3 part\\Member3 part\\MyApplication9\\MyApplication9\\app\\src\\main\\res\\layout\\visit_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\m_eldeeb\\Downloads\\Member3 part\\Member3 part\\MyApplication9\\MyApplication9\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\m_eldeeb\\Downloads\\Member3 part\\Member3 part\\MyApplication9\\MyApplication9\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\m_eldeeb\\Downloads\\Member3 part\\Member3 part\\MyApplication9\\MyApplication9\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_update_visit.xml",
+        "source": "C:\\Users\\m_eldeeb\\Downloads\\Member3 part\\Member3 part\\MyApplication9\\MyApplication9\\app\\src\\main\\res\\layout\\activity_update_visit.xml"
+    },
+    {
+        "merged": "C:\\Users\\m_eldeeb\\Downloads\\Member3 part\\Member3 part\\MyApplication9\\MyApplication9\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_show_visit_data.xml",
+        "source": "C:\\Users\\m_eldeeb\\Downloads\\Member3 part\\Member3 part\\MyApplication9\\MyApplication9\\app\\src\\main\\res\\layout\\activity_show_visit_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\m_eldeeb\\Downloads\\Member3 part\\Member3 part\\MyApplication9\\MyApplication9\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main2.xml",
+        "source": "C:\\Users\\m_eldeeb\\Downloads\\Member3 part\\Member3 part\\MyApplication9\\MyApplication9\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    }
+]

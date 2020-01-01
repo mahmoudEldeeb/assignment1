@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="new_visit">New Visit</string>
+    <string name="title">Title</string>
+    <string name="insert_title">insert a title</string>
+    <string name="date_time">Show current date and time automatically calculated</string>
+    <string name="start">Start</string>
+    <string name="show_photos">show photos</string>
+
+
+    <string name="description">Description</string>
+    <string name="entre_title">Enter a title of visit</string>
+    <string name="temperature">temperature</string>
+    <string name="barometer">barometer</string>
+    <string name="update">Update</string>
+    <string name="delete">delete</string>
+    <string name="show_visits">Show visits</string>
+    <string name="date">date</string>
+</resources>

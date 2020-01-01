@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/background"
+
+        >
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/newVisitTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_visit"
+                    android:textSize="30sp"
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_gravity="left"/>
+
+                <TextView
+                    android:id="@+id/titleTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title"
+                    android:textSize="25sp"
+
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:padding="16dp"
+                    android:layout_gravity="left"
+                    android:layout_below="@id/newVisitTextView"/>
+
+                <EditText
+                    android:id="@+id/insertTitleEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/insert_title"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:padding="16dp"
+                    android:background="@drawable/edit_back"
+                    android:textColorHint="@color/white"
+
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:inputType="text"></EditText>
+                <EditText
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/description"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="left"
+                    android:padding="16dp"
+                    android:background="@drawable/edit_back"
+
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+
+                    android:inputType="textMultiLine"
+                    android:minLines="3"></EditText>
+
+                <TextView
+                    android:id="@+id/dateTimeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date_time"
+                    android:textSize="22sp"
+                    android:textAlignment="center"
+
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"
+                    android:padding="16dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/insertTitleEditText"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_below="@id/scrollView"
+                    android:layout_alignParentBottom="true">
+
+                    <Button
+                        android:id="@+id/startBtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/start"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:padding="16dp"
+                        android:layout_margin="16dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/login_btn"
+                        ></Button>
+
+                    <Button
+                        android:id="@+id/show_photos"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/show_photos"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:padding="16dp"
+                        android:layout_margin="16dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/login_btn"></Button>
+                    <Button
+                        android:id="@+id/show_visits"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/show_visits"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:padding="16dp"
+                        android:layout_margin="16dp"
+                        android:layout_gravity="bottom"
+                        android:background="@drawable/login_btn"></Button>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+</layout>

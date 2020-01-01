@@ -1,0 +1,183 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="uk.ac.shef.oak.com4510"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the 'MyLocation' functionality.
+15    -->
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:11:5-80
+17-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:12:5-79
+18-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:13:5-66
+19-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:13:22-64
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:14:5-80
+20-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:14:22-78
+21
+22    <!-- Include required permissions for Google Maps API to run. -->
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+28
+29    <application
+29-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:16:5-56:19
+30        android:allowBackup="true"
+30-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:17:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.1.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:18:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:19:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:20:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:21:9-35
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme"
+38-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:22:9-40
+39        android:usesCleartextTraffic="true" >
+39-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:23:9-44
+40        <activity android:name="uk.ac.shef.oak.com4510.view.activities.UpdateVisitActivity" />
+40-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:25:9-82
+40-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:25:19-70
+41        <activity android:name="uk.ac.shef.oak.com4510.view.activities.ShowVisitDataActivity" />
+41-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:26:9-75
+41-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:26:19-72
+42        <!--
+43             The API key for Google Maps-based APIs is defined as a string resource.
+44             (See the file "res/values/google_maps_api.xml").
+45             Note that the API key is linked to the encryption key used to sign the APK.
+46             You need a different API key for each encryption key, including the release key that is used to
+47             sign the APK for publishing.
+48             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+49        -->
+50        <activity android:name="uk.ac.shef.oak.com4510.view.activities.FullImageActivity" />
+50-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:35:9-80
+50-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:35:19-68
+51        <activity android:name="uk.ac.shef.oak.com4510.view.activities.PathActivity" />
+51-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:36:9-66
+51-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:36:19-63
+52        <activity android:name="uk.ac.shef.oak.com4510.view.activities.AllPathImagesActivity" />
+52-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:37:9-75
+52-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:37:19-72
+53        <activity android:name="uk.ac.shef.oak.com4510.view.activities.ImageDescriptionActivity" />
+53-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:38:9-78
+53-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:38:19-75
+54        <activity android:name="uk.ac.shef.oak.com4510.view.activities.SpecificPathActivity" />
+54-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:39:9-74
+54-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:39:19-71
+55        <activity android:name="uk.ac.shef.oak.com4510.view.activities.AllImagesActivity" />
+55-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:40:9-71
+55-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:40:19-68
+56        <activity android:name="uk.ac.shef.oak.com4510.view.activities.selectActivity" />
+56-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:41:9-67
+56-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:41:19-65
+57        <activity android:name="uk.ac.shef.oak.com4510.view.activities.Main2Activity" >
+57-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:42:9-47:20
+57-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:42:19-86
+58
+59            <!-- <intent-filter> -->
+60            <!-- <action android:name="android.intent.action.MAIN" /> -->
+61            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+62            <!-- </intent-filter> -->
+63        </activity>
+64        <activity android:name="uk.ac.shef.oak.com4510.view.activities.MainActivity" >
+64-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:48:9-53:20
+64-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:48:19-85
+65            <intent-filter>
+65-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:49:13-52:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:50:17-69
+66-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:50:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:51:17-77
+68-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:51:27-74
+69            </intent-filter>
+70        </activity>
+71
+72        <meta-data
+72-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:54:9-55:70
+73            android:name="com.google.android.geo.API_KEY"
+73-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:54:20-65
+74            android:value="AIzaSyBA4l2ccWuUeypicsqAh61brZLHc5bO6Pg" />
+74-->C:\Users\m_eldeeb\Downloads\Member3 part\Member3 part\MyApplication9\MyApplication9\app\src\main\AndroidManifest.xml:55:13-68
+75        <!-- Needs to be explicitly declared on P+ -->
+76        <uses-library
+76-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+77            android:name="org.apache.http.legacy"
+77-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+78            android:required="false" />
+78-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+79
+80        <service
+80-->[androidx.room:room-runtime:2.2.1] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\eb8d5744ff3e68b42433535f7a761baa\room-runtime-2.2.1\AndroidManifest.xml:25:9-27:40
+81            android:name="androidx.room.MultiInstanceInvalidationService"
+81-->[androidx.room:room-runtime:2.2.1] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\eb8d5744ff3e68b42433535f7a761baa\room-runtime-2.2.1\AndroidManifest.xml:26:13-74
+82            android:exported="false" />
+82-->[androidx.room:room-runtime:2.2.1] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\eb8d5744ff3e68b42433535f7a761baa\room-runtime-2.2.1\AndroidManifest.xml:27:13-37
+83
+84        <provider
+84-->[com.squareup.picasso:picasso:2.71828] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\ed4dbb87b1bb4120f37ad8218c72e144\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+85            android:name="com.squareup.picasso.PicassoProvider"
+85-->[com.squareup.picasso:picasso:2.71828] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\ed4dbb87b1bb4120f37ad8218c72e144\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+86            android:authorities="uk.ac.shef.oak.com4510.com.squareup.picasso"
+86-->[com.squareup.picasso:picasso:2.71828] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\ed4dbb87b1bb4120f37ad8218c72e144\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+87            android:exported="false" />
+87-->[com.squareup.picasso:picasso:2.71828] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\ed4dbb87b1bb4120f37ad8218c72e144\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+88
+89        <activity
+89-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+90            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+90-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+93
+94        <meta-data
+94-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\bfe771b112eadd62544c5614fbc68b91\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+95            android:name="com.google.android.gms.version"
+95-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\bfe771b112eadd62544c5614fbc68b91\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+96            android:value="@integer/google_play_services_version" />
+96-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\bfe771b112eadd62544c5614fbc68b91\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+97
+98        <provider
+98-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+99            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+100            android:authorities="uk.ac.shef.oak.com4510.lifecycle-process"
+100-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+101            android:exported="false"
+101-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+102            android:multiprocess="true" />
+102-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\m_eldeeb\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+103    </application>
+104
+105</manifest>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activities.selectActivity"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/AllImagesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Images"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/login_btn"
+        android:backgroundTint="@color/colorPrimary"></Button>
+    <Button
+        android:id="@+id/AllImagesByPathButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Images By Path"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/login_btn"
+        android:backgroundTint="@color/colorPrimary"></Button>
+    <Button
+        android:id="@+id/AllPathsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All Paths"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/login_btn"
+        android:backgroundTint="@color/colorPrimary"></Button>
+
+</LinearLayout>

@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="uk.ac.shef.oak.com4510"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the 'MyLocation' functionality.
+15    -->
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:10:5-79
+16-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:11:5-80
+17-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:12:5-79
+18-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:13:5-66
+19-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:13:22-64
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:14:5-80
+20-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:14:22-78
+21
+22    <!-- Include required permissions for Google Maps API to run. -->
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+28
+29    <application
+29-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:16:5-47:19
+30        android:allowBackup="true"
+30-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:17:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.1.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:18:9-43
+34        android:label="@string/app_name"
+34-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:19:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:20:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:21:9-35
+37        android:theme="@style/AppTheme"
+37-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:22:9-40
+38        android:usesCleartextTraffic="true" >
+38-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:23:9-44
+39
+40        <!--
+41             The API key for Google Maps-based APIs is defined as a string resource.
+42             (See the file "res/values/google_maps_api.xml").
+43             Note that the API key is linked to the encryption key used to sign the APK.
+44             You need a different API key for each encryption key, including the release key that is used to
+45             sign the APK for publishing.
+46             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+47        -->
+48
+49        <activity android:name="uk.ac.shef.oak.com4510.view.activities.Main2Activity" >
+49-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:34:9-39:20
+49-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:34:19-86
+50
+51            <!-- <intent-filter> -->
+52            <!-- <action android:name="android.intent.action.MAIN" /> -->
+53            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+54            <!-- </intent-filter> -->
+55        </activity>
+56        <activity android:name="uk.ac.shef.oak.com4510.view.activities.MainActivity" >
+56-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:40:9-45:20
+56-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:40:19-85
+57            <intent-filter>
+57-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:41:13-44:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:42:17-69
+58-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:42:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:43:17-77
+60-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:43:27-74
+61            </intent-filter>
+62        </activity>
+63
+64        <meta-data
+64-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:46:9-123
+65            android:name="com.google.android.geo.API_KEY"
+65-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:46:20-65
+66            android:value="AIzaSyAQ4ZDGyQlHdzmY28GwFEG_JxtPFQ59sAU" />
+66-->C:\Users\Alex\Desktop\General\6510\MyApplication2\app\src\main\AndroidManifest.xml:46:66-121
+67        <!-- Needs to be explicitly declared on P+ -->
+68        <uses-library
+68-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+69            android:name="org.apache.http.legacy"
+69-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+70            android:required="false" />
+70-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\a3d702a77cbfacefb23de82416a0cb1f\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+71
+72        <service
+72-->[androidx.room:room-runtime:2.2.1] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\eb8d5744ff3e68b42433535f7a761baa\room-runtime-2.2.1\AndroidManifest.xml:25:9-27:40
+73            android:name="androidx.room.MultiInstanceInvalidationService"
+73-->[androidx.room:room-runtime:2.2.1] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\eb8d5744ff3e68b42433535f7a761baa\room-runtime-2.2.1\AndroidManifest.xml:26:13-74
+74            android:exported="false" />
+74-->[androidx.room:room-runtime:2.2.1] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\eb8d5744ff3e68b42433535f7a761baa\room-runtime-2.2.1\AndroidManifest.xml:27:13-37
+75
+76        <provider
+76-->[com.squareup.picasso:picasso:2.71828] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\8f677729ac6bcf31bfc047241ce54af0\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+77            android:name="com.squareup.picasso.PicassoProvider"
+77-->[com.squareup.picasso:picasso:2.71828] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\8f677729ac6bcf31bfc047241ce54af0\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+78            android:authorities="uk.ac.shef.oak.com4510.com.squareup.picasso"
+78-->[com.squareup.picasso:picasso:2.71828] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\8f677729ac6bcf31bfc047241ce54af0\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+79            android:exported="false" />
+79-->[com.squareup.picasso:picasso:2.71828] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\8f677729ac6bcf31bfc047241ce54af0\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+80
+81        <activity
+81-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+82            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+82-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\77c2fc448e2bd0738fd67dce062b1efd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+85
+86        <meta-data
+86-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\0499f412aede3d6f8e8e25f3c454b20b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+87            android:name="com.google.android.gms.version"
+87-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\0499f412aede3d6f8e8e25f3c454b20b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+88            android:value="@integer/google_play_services_version" />
+88-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\0499f412aede3d6f8e8e25f3c454b20b\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+89
+90        <provider
+90-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+91            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+91-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+92            android:authorities="uk.ac.shef.oak.com4510.lifecycle-process"
+92-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+93            android:exported="false"
+93-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+94            android:multiprocess="true" />
+94-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\Alex\.gradle\caches\transforms-2\files-2.1\3c03e0805bdfd6180afbf0af0c9cd9a0\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+95    </application>
+96
+97</manifest>
